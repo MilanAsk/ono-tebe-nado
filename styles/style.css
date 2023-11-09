@@ -44,7 +44,7 @@ ul li:first-child {
     max-width: 240px;
 }
 
-.contacts a, .contacts p{
+.contacts a, .contacts p {
     color: #000;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -57,7 +57,8 @@ ul li:first-child {
 .logo-black {
     width: 148px;
     height: 105px;
-    justify-self: center; 
+    justify-self: center;
+
 }
 
 .cover {
@@ -163,6 +164,7 @@ ul li:first-child {
     display: flex;
     flex-direction: row;
     gap: 25px; 
+
 }
 
 .card {
@@ -196,8 +198,6 @@ ul li:first-child {
     font-style: normal;
     font-weight: 400;
     line-height: 120%; 
-    
-    
 }
 
 .first-card {
@@ -236,7 +236,7 @@ ul li:first-child {
     gap: 25px;
 }
 
-.box-logo{
+.box-logo {
     width: 430px;
     height: 240px;
     justify-content: center;
