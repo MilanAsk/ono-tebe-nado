@@ -58,18 +58,19 @@ ul li:first-child {
     width: 148px;
     height: 105px;
     justify-self: center;
-
+    
 }
 
 .cover {
     background-image: url(/images/cover.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    width: 1440px;
+    max-width: 1440px;
     box-shadow: 1000px 1000px 9px 50px rgba(0, 0, 0, 0.6) inset;
     padding: 0;
     flex-shrink: 0;
-    
+    height: 757px;
+   
 }
 
 .cover-title {
@@ -84,21 +85,36 @@ ul li:first-child {
     display: grid;
     grid-template-rows: repeat(3, 1fr);
     gap: 20px;
-    padding: 165px 50px 135px;
+    padding: 165px 50px 147px;
     
 }
 
 .it {
     justify-self: start;
-
+   
+    
 }
 
+.its {
+    letter-spacing: 60px;
+}
 .you {
     justify-self: center;
 }
 
+.yours{
+    letter-spacing: 60px;
+}
+
 .need {
     justify-self: end;
+    letter-spacing: 60px;
+    text-align: end;
+}
+
+.needs {
+    letter-spacing: 30px;
+
 }
 
 .cover-text {
@@ -106,24 +122,18 @@ ul li:first-child {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-
 }
-
-.empty {
-    width: 250px;
-}
-
 
 .subline {
     color: white;
-    text-align: center;
     font-size: 22px;
     font-weight: 400;
     line-height: 28px;
     text-transform: uppercase;
     margin-bottom: 50px;
     font-family: 'Raleway', sans-serif;
-
+    width: 633px;
+    text-align: justify;
     
 }
 
